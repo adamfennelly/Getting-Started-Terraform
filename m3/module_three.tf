@@ -99,7 +99,9 @@ resource "aws_instance" "nginx" {
       "sudo service nginx start"
     ]
   }
-}
+  }
+  
+
 
 ##################################################################################
 # OUTPUT
